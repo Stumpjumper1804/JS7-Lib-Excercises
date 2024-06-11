@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Food Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <h2 class="title">Food blog</h2>
+            <ul id="header-ul">
+                <li><a href="./recipe.html">Recipe of the month</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li>&#128270;</li>
+            </ul>
+        </div>
+        <div class="nav">
+            <ul id="nav-top">
+                <li><a href="#">Pasta</a></li>
+                <li><a href="#">Taco</a></li>
+                <li><a href="#">Pizza</a></li>
+                <li><a href="#">Dessert</a></li>
+                <li><a href="#">Breakfast</a></li>
+                <li><a href="#">Lunch</a></li>
+                <li><a href="#">Dinner</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--slider swiperJS-->
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/hero_airport-2373727_1280.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/hero_passport-2714675_1280.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/hero_road-6774756_1280.jpg" alt=""></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+<!--end slider-->
+    <main>
+        <div class="grid">
+            <div class="grid-item">
+                <img class="animate__animated animate__bounce" src="./images/main-dish.jpg" alt="">
+                <p>Main dish</p>
+            </div>
+            <div class="grid-item">
+                <img class="animate__animated animate__flash" src="./images/chicken_and_pommes.jpg" alt="">
+                <p>Chicken and pommes</p>
+            </div>
+            <div class="grid-item">
+                <img class="animate__animated animate__wobble" src="./images/hamburger.jpg" alt="">
+                <p>Hamburger</p>
+            </div>
+            <div class="grid-item">
+                <img class="animate__animated animate__rubberBand" src="./images/fishsteak.jpg" alt="">
+                <p>Salmon steak</p>
+            </div>
+            <div class="grid-item">
+                <img class="animate__animated animate__shakeX" src="./images/noodle-soup.jpg" alt="">
+                <p>Noodle soup</p>
+            </div>
+            <div class="grid-item">
+                <img class="animate__animated animate__backInDown" src="./images/pizza.jpg" alt="">
+                <p>Pizza</p>
+            </div>
+            <div class="grid-item">
+                <img class="animate__animated animate__backInUp" src="./images/salad-plate.jpg" alt="">
+                <p>Salad</p>
+            </div>
+            <div class="grid-item">
+                <img class="animate__animated animate__backInLeft" src="./images/salchipapas.jpg" alt="">
+                <p>Salchipapas</p>
+            </div>
+            <div class="grid-item">
+                <img class="animate__animated animate__backInRight" src="./images/sandwich.jpg" alt="">
+                <p>Sandwich</p>
+            </div>
+        </div>
+    </main>   
+    <footer>
+        <ul id="ul-footer">
+            <li><a href="./AboutUs.html">About</a></li>
+            <li>&vert;</li>
+            <li><a href="#">Recipes</a></li>
+            <li>&vert;</li>
+            <li><a href="#">FAQ</a></li>
+            <li>&vert;</li>
+            <li><a href="https://codefactory.wien/en/contact-en/">Contact us</a></li>
+        </ul>
+        <ul id="ul-footer-symbols">
+            <li><a href="#"><img src="./images/Facebook2.png" alt="Facebook-Button"></a></li>
+            <li><a href="#"><img src="./images/LinkeIn2.png" alt="LinkeIn-Button"></a></li>
+            <li><a href="#"><img src="./images/Insta.jpg" alt="Insta-Button"></a></li>
+        </ul>
+        <p>&copy; CodeFactory 2024</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
